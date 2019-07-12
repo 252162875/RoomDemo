@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+            android:id="@+id/btn_add"
+            android:text="添加Student"
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btn_update"
+            android:text="修改Student"
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/btn_add"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/btn_delete_all"
+            android:text="删除所有Student"
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/btn_update"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btn_add_t"
+            android:text="添加Teacher并排序"
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/btn_delete_all"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_height="wrap_content"/>
+
+
+    <Button
+            android:id="@+id/btn_update_t"
+            android:text="修改Teacher"
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/btn_add_t"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_height="wrap_content"/>
+
+</android.support.constraint.ConstraintLayout>
