@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"/>
     <Button
             android:id="@+id/btn_delete_all"
-            android:text="删除所有Student"
+            android:text="删除所有的Student"
             android:layout_width="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/btn_update"
             app:layout_constraintLeft_toLeftOf="parent"
